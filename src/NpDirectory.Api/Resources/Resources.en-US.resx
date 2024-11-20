@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="Validation.Name.Required" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+    <data name="Validation.Name.TooShort" xml:space="preserve">
+    <value>Name must be at least 2 characters long</value>
+  </data>
+    <data name="Validation.Name.TooLong" xml:space="preserve">
+    <value>Name cannot exceed 50 characters</value>
+  </data>
+    <data name="Validation.Name.Invalid" xml:space="preserve">
+    <value>Name must contain only Georgian or English letters</value>
+  </data>
+    <data name="Validation.Sex.Invalid" xml:space="preserve">
+    <value>Invalid sex value</value>
+  </data>
+    <data name="Validation.PersonalNumber.Required" xml:space="preserve">
+    <value>Personal number is required</value>
+  </data>
+    <data name="Validation.PersonalNumber.Invalid" xml:space="preserve">
+    <value>Personal number must be 11 digits</value>
+  </data>
+    <data name="Validation.City.NotFound" xml:space="preserve">
+    <value>City not found</value>
+  </data>
+    <data name="Validation.BirthDate.Required" xml:space="preserve">
+    <value>Birth date is required</value>
+  </data>
+    <data name="Validation.BirthDate.Future" xml:space="preserve">
+    <value>Birth date cannot be in the future</value>
+  </data>
+    <data name="Validation.Image.Invalid" xml:space="preserve">
+    <value>Invalid image format. Allowed formats are</value>
+  </data>
+    <data name="Validation.PhoneNumber.Required" xml:space="preserve">
+    <value>At least one phone number is required</value>
+  </data>
+    <data name="Validation.PhoneNumber.Type.Invalid" xml:space="preserve">
+    <value>Invalid phone number type</value>
+  </data>
+    <data name="Validation.PhoneNumber.TooShort" xml:space="preserve">
+    <value>Phone number must be at least 2 characters long</value>
+  </data>
+    <data name="Validation.PhoneNumber.TooLong" xml:space="preserve">
+    <value>Phone number cannot exceed 50 characters</value>
+  </data>
+  <data name="Error.NaturalPerson.NotFound" xml:space="preserve">
+    <value>Natural person not found</value>
+  </data>
+  <data name="Error.PersonalNumber.AlreadyExists" xml:space="preserve">
+    <value>Personal number already exists</value>
+  </data>
+  <data name="Error.Image.Required" xml:space="preserve">
+    <value>Image is required</value>
+  </data>
+  <data name="Error.Relation.AlreadyExists" xml:space="preserve">
+      <value>Relation already exists</value>
+  </data>
+  <data name="Error.Id.Empty" xml:space="preserve">
+    <value>Id is required</value>
+  </data>
+  <data name="Error.Id.GreaterThanZero" xml:space="preserve">
+    <value>Id should be greater than 0</value>
+  </data>
+  <data name="Error.Relation.SamePerson" xml:space="preserve">
+    <value>Same person</value>
+  </data>
+  <data name="Error.NaturalPerson.AlreadyExists" xml:space="preserve">
+    <value>Person already exists</value>
+  </data>
+  <data name="Error.Relation.NotFound" xml:space="preserve">
+    <value>Relation not found</value>
+  </data>
+  <data name="Error.PhoneNumber.AlreadyExists" xml:space="preserve">
+    <value>Phone number already exists</value>
+  </data>
+  <data name="Validation.BirthDate.TooYoung" xml:space="preserve">
+    <value>Person should be at least 18 years old</value>
+  </data>
+</root>

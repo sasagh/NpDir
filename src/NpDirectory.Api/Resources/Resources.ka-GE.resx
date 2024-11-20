@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- Validation Messages -->
+    <data name="Validation.Name.Required" xml:space="preserve">
+    <value>სახელი სავალდებულოა</value>
+  </data>
+    <data name="Validation.Name.TooShort" xml:space="preserve">
+    <value>სახელი უნდა შეიცავდეს მინიმუმ 2 სიმბოლოს</value>
+  </data>
+    <data name="Validation.Name.TooLong" xml:space="preserve">
+    <value>სახელი არ უნდა აღემატებოდეს 50 სიმბოლოს</value>
+  </data>
+    <data name="Validation.Name.Invalid" xml:space="preserve">
+    <value>სახელი უნდა შეიცავდეს მხოლოდ ქართულ ან ინგლისურ ასოებს</value>
+  </data>
+    <data name="Validation.Sex.Invalid" xml:space="preserve">
+    <value>არასწორი სქესის მნიშვნელობა</value>
+  </data>
+    <data name="Validation.PersonalNumber.Required" xml:space="preserve">
+    <value>პირადი ნომერი სავალდებულოა</value>
+  </data>
+    <data name="Validation.PersonalNumber.Invalid" xml:space="preserve">
+    <value>პირადი ნომერი უნდა შედგებოდეს 11 ციფრისგან</value>
+  </data>
+    <data name="Validation.City.NotFound" xml:space="preserve">
+    <value>ქალაქი ვერ მოიძებნა</value>
+  </data>
+    <data name="Validation.BirthDate.Required" xml:space="preserve">
+    <value>დაბადების თარიღი სავალდებულოა</value>
+  </data>
+    <data name="Validation.BirthDate.Future" xml:space="preserve">
+    <value>დაბადების თარიღი არ შეიძლება იყოს მომავალში</value>
+  </data>
+    <data name="Validation.Image.Invalid" xml:space="preserve">
+    <value>სურათის არასწორი ფორმატი. დასაშვები ფორმატებია</value>
+  </data>
+    <data name="Validation.PhoneNumber.Required" xml:space="preserve">
+    <value>მინიმუმ ერთი ტელეფონის ნომერი სავალდებულოა</value>
+  </data>
+    <data name="Validation.PhoneNumber.Type.Invalid" xml:space="preserve">
+    <value>ტელეფონის ნომრის არასწორი ტიპი</value>
+  </data>
+    <data name="Validation.PhoneNumber.TooShort" xml:space="preserve">
+    <value>ტელეფონის ნომერი უნდა შეიცავდეს მინიმუმ 2 სიმბოლოს</value>
+  </data>
+    <data name="Validation.PhoneNumber.TooLong" xml:space="preserve">
+    <value>ტელეფონის ნომერი არ უნდა აღემატებოდეს 50 სიმბოლოს</value>
+  </data>
+  <data name="Error.NaturalPerson.NotFound" xml:space="preserve">
+    <value>ფიზიკური პირი ვერ მოიძებნა</value>
+  </data>
+  <data name="Error.PersonalNumber.AlreadyExists" xml:space="preserve">
+      <value>ტელეფონის ნომერი უკვე არსებობს</value>
+  </data>
+  <data name="Error.Image.Required" xml:space="preserve">
+    <value>ფოტო სავალდებულოა</value>
+  </data>
+    <data name="Error.Relation.AlreadyExists" xml:space="preserve">
+      <value>კავშირი უკვე არსებობს</value>
+    </data>
+    <data name="Error.Id.Empty" xml:space="preserve">
+      <value>აიდის ველი სავალდებულოა</value>
+    </data>
+    <data name="Error.Id.GreaterThanZero" xml:space="preserve">
+      <value>აიდი მეტი მეტი უნდა იყოს 0-ზე</value>
+    </data>
+    <data name="Error.Relation.SamePerson" xml:space="preserve">
+      <value>იგივე პირი</value>
+    </data>
+    <data name="Error.NaturalPerson.AlreadyExists" xml:space="preserve">
+      <value>ფიზიკური პირი უკვე არსებობს</value>
+    </data>
+    <data name="Error.Relation.NotFound" xml:space="preserve">
+      <value>კავშირი არ არსებობს</value>
+    </data>
+    <data name="Error.PhoneNumber.AlreadyExists" xml:space="preserve">
+      <value>ნომერი უკვე არსებობს</value>
+    </data>
+    <data name="Validation.BirthDate.TooYoung" xml:space="preserve">
+      <value>ფიზიკური პირი უნდა იყოს მინიმუმ 18 წლის</value>
+    </data>
+</root>
